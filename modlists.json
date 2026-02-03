@@ -1,0 +1,46 @@
+[
+    {
+    "title": "Kismet of Kynareth",
+    "description": "Kismet of Kynareth (KOK) is an immersive, survival-focused modlist blending Requiem-style progression, punishing combat, and NSFW elements into a harsh and demanding experience. With overhauled visuals, seasonal survival systems, dynamic encounters, and deliberate, weighty gameplay, KOK reshapes Skyrim into an untamed world ruled by nature and consequence. Through grounded immersion, carefully paced progression, and mature themes woven seamlessly into the setting, it delivers a relentless yet deeply atmospheric journey of struggle, devotion, and desire.",
+    "author": "Heisen and jbish",
+    "maintainers": [
+      "github/Drheisen1"
+    ],
+    "game": "skyrimspecialedition",
+    "official": false,
+    "tags": [
+      "DLC Required",
+      "NSFW",
+      "Hardcore",
+      "Survival",
+      "Legacy of the Dragonborn",
+      "New Quests"
+    ],
+    "nsfw": true,
+    "utility_list": false,
+    "image_contains_title": false,
+    "DisplayVersionOnlyInInstallerView": false,
+    "force_down": false,
+    "links": {
+      "image": "https://raw.githubusercontent.com/HerrSchtevie/Scrolls-of-Schtevie/refs/heads/main/KOK%20wallpaper.webp",
+      "readme": "https://github.com/HerrSchtevie/Scrolls-of-Schtevie/wiki/Kismet-of-Kynareth-ReadMe",
+      "download": "https://authored-files.wabbajack.org/yourfile",
+      "machineURL": "KismetOfKynareth",
+      "discordURL": "https://discord.gg/themoddingbordello",
+      "websiteURL": ""
+    },
+    "download_metadata": {
+      "Hash": "Ua8Mc+RsL+U=",
+      "Size": 1548811622,
+      "NumberOfArchives": 3771,
+      "SizeOfArchives": 313183030402,
+      "NumberOfInstalledFiles": 706796,
+      "SizeOfInstalledFiles": 630365080734,
+      "TotalSize": 943548111136
+    },
+    "version": "1.0.0",
+    "dateCreated": "1970-01-01T00:00:00Z",
+    "dateUpdated": "2025-08-31T19:21:26.8815607Z",
+    "repositoryName": "Kismet-of-Kynareth"
+  }
+]
