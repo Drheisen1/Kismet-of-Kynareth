@@ -1,7 +1,7 @@
 [
     {
-    "title": "Kismet of Kynareth",
-    "description": "Kismet of Kynareth (KOK) is an immersive, survival-focused modlist blending Requiem-style progression, punishing combat, and NSFW elements into a harsh and demanding experience. With overhauled visuals, seasonal survival systems, dynamic encounters, and deliberate, weighty gameplay, KOK reshapes Skyrim into an untamed world ruled by nature and consequence. Through grounded immersion, carefully paced progression, and mature themes woven seamlessly into the setting, it delivers a relentless yet deeply atmospheric journey of struggle, devotion, and desire.",
+    "title": "Authoria - Requiem Reforged",
+    "description": "Authoria - Requiem Reforged is an immersive, survival-focused modlist blending Requiem-style progression into a demanding experience. With overhauled visuals, seasonal survival systems, dynamic encounters, and deliberate, weighty gameplay, Authoria reshapes Skyrim into an untamed world ruled by nature and consequence. Through grounded immersion, carefully paced progression, it delivers a relentless yet deeply atmospheric journey.",
     "author": "Heisen and jbish",
     "maintainers": [
       "github/Drheisen1"
@@ -10,37 +10,36 @@
     "official": false,
     "tags": [
       "DLC Required",
-      "NSFW",
       "Hardcore",
       "Survival",
       "Legacy of the Dragonborn",
       "New Quests"
     ],
-    "nsfw": true,
+    "nsfw": false,
     "utility_list": false,
     "image_contains_title": false,
     "DisplayVersionOnlyInInstallerView": false,
     "force_down": false,
     "links": {
-      "image": "https://github.com/Drheisen1/Kismet-of-Kynareth/blob/main/KOK_Wabba_1920x1080.png?raw=true",
-      "readme": "https://github.com/HerrSchtevie/Scrolls-of-Schtevie/wiki/Kismet-of-Kynareth-ReadMe",
-      "download": "https://authored-files.wabbajack.org/Kismet%20of%20Kynareth.wabbajack_3ca597e5-9ecd-4306-9cba-1ced6f6b4391",
-      "machineURL": "KismetOfKynareth",
+      "image": "https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/wabbaimage.webp?raw=true",
+      "readme": "https://github.com/HerrSchtevie/Scrolls-of-Schtevie/wiki/Authoria-%E2%80%90-Requiem-Reforged-ReadMe",
+      "download": "https://build.wabbajack.org/authored_files/download/Authoria%20-%20Requiem%20Reforged.wabbajack_c951c4be-b47f-46be-97ff-270cabb9429f",
+      "machineURL": "Authoria-Requiem-Reforged",
       "discordURL": "https://discord.gg/themoddingbordello",
       "websiteURL": ""
     },
     "download_metadata": {
-      "Hash": "Co0RnViJjjQ=",
-      "Size": 2161928780,
-      "NumberOfArchives": 3595,
-      "SizeOfArchives": 284394608179,
-      "NumberOfInstalledFiles": 654760,
-      "SizeOfInstalledFiles": 540718268810,
-      "TotalSize": 825112876989
+      "Hash": "1f3felxtilA=",
+      "Size": 1943467506,
+      "NumberOfArchives": 3532,
+      "SizeOfArchives": 275035520464,
+      "NumberOfInstalledFiles": 574815,
+      "SizeOfInstalledFiles": 507326105105,
+      "TotalSize": 782361625569
     },
     "version": "1.0.0",
     "dateCreated": "1970-01-01T00:00:00Z",
     "dateUpdated": "2025-08-31T19:21:26.8815607Z",
-    "repositoryName": "Kismet-of-Kynareth"
+    "repositoryName": "Authoria-Requiem-Reforged"
   }
 ]
