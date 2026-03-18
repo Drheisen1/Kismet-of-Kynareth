@@ -23,21 +23,21 @@
     "links": {
       "image": "https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/wabbaimage.webp?raw=true",
       "readme": "https://github.com/HerrSchtevie/Scrolls-of-Schtevie/wiki/Authoria-%E2%80%90-Requiem-Reforged-ReadMe",
-      "download": "https://build.wabbajack.org/authored_files/download/Authoria%20-%20Requiem%20Reforged.wabbajack_8c101207-25ad-4b0e-af4f-159582360731",
+      "download": "https://build.wabbajack.org/authored_files/download/Authoria%20-%20Requiem%20Reforged.wabbajack_9f9ebb79-3dee-4473-b020-9f860a08edd5",
       "machineURL": "Authoria-Requiem-Reforged",
       "discordURL": "https://discord.gg/themoddingbordello",
       "websiteURL": ""
     },
     "download_metadata": {
-      "Hash": "wrq5vGFFvuM=",
-      "Size": 1973603140,
-      "NumberOfArchives": 3546,
-      "SizeOfArchives": 275228510753,
-      "NumberOfInstalledFiles": 576043,
-      "SizeOfInstalledFiles": 507956214018,
-      "TotalSize": 783184724771
+      "Hash": "Y4zl/xvDWpE=",
+      "Size": 1972046908,
+      "NumberOfArchives": 3543,
+      "SizeOfArchives": 275362870819,
+      "NumberOfInstalledFiles": 575943,
+      "SizeOfInstalledFiles": 508542046999,
+      "TotalSize": 783904917818
     },
-    "version": "1.0.0",
+    "version": "1.0.4",
     "dateCreated": "1970-01-01T00:00:00Z",
     "dateUpdated": "2025-08-31T19:21:26.8815607Z",
     "repositoryName": "Authoria-Requiem-Reforged"
