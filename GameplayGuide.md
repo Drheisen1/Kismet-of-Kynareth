@@ -23,7 +23,7 @@ Scroll the on the left panel of mo2, you will find a Customization separator fol
 All the customizations **MUST be made on a new save file**!
 
 <details>
-<summary><strong>Details on Each Seperator/strong></summary>
+<summary><strong>**Details on Each Seperator**</strong></summary>
 
 **Controller Setup**:
 - enable every mod in this separator if you plan on playing with a controller.
