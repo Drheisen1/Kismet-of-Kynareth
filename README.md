@@ -8,7 +8,7 @@
 ### Community
 
 | [Join our Discord](https://discord.gg/themoddingbordello) | [View on Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/170235) | [View Changelog](https://github.com/HerrSchtevie/Scrolls-of-Schtevie/wiki/Authoria-%E2%80%90-Requiem-Reforged-Changelog) |
-|:--:|:--:|:--:|
+|:--:|:--:|
 | [View the Modlist](https://loadorderlibrary.com/lists/authoria-requiem-reforged-3) | [See Version History](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Changelog.md) | 
 
 ## 📌 Introduction
