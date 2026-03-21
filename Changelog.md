@@ -43,7 +43,6 @@
 - some trees clipping in whiterun exterior
 - removed description from nevernude seperator to avoid confusion
 - added dummy plugins for controller mods
-- use those blankets not working in jorrvaskr
 - fear/stress causing sunhelm food menu to pop up
 - Snowy mountain pile near BFB base in summer
 - duplicate fortify barter potions in starting gear selection with different costs
