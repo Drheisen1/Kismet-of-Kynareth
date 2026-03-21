@@ -1,12 +1,8 @@
-# Authoria - Requiem Reforged Version 1.0.4
+## Authoria - Requiem Reforged Version 1.0.4
 
 >Hotfixes and minor tweaks
-
-# Authoria Update
-
-## Summary
-
 >Some fixes that were missed on initial Release.
+
 
 ---
 
