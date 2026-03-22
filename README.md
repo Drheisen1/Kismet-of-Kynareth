@@ -159,8 +159,7 @@ Before you begin, make sure you meet the following **hard requirements**:
    - Select and add the two directories mentioned above.
    - Turn off Smart App Control if you have that in your windows.
    - (If you're using an antivirus other than Defender, add exclusions in whatever manner your AV requires.)
----
-
+   - 
 4. **Launch Wabbajack**
    - Open Wabbajack.
    - Click the **Modlists Browser** tab.
