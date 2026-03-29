@@ -110,6 +110,8 @@ There are currently **8 Starter Kits** , with one of them being locked behind ea
 Authoria uses Archon as it's Religion Framework 
 https://www.nexusmods.com/skyrimspecialedition/mods/160141?tab=description
 
+It's recommended to pick a deity before starting your playthrough and sticking with it.
+
 ---
 
 ## Standing Stones
