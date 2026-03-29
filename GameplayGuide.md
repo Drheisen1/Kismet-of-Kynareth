@@ -53,6 +53,12 @@ All the customizations **MUST be made on a new save file**!
 **Vanilla Skill Leveling**:
 - Enable the mod inside this seperator to use vanilla Skill leveling instead of static skill leveling.
 
+**Weaker Followers**:
+- Nerfs the damage output from followers, recommended if you plan to play with multiple modded followers.
+- 25% -> Recommended if playing with 1-2 Followers.
+- 50% -> Recommended if playing with 3 Followers.
+- 75% -> Recommended if playing ith >3 Followers.
+
 **Difficulty**:
 - Easy mode Settings -> Enable this mod to enable [Requiem Lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), this is VERY recommended if this is your first requiem playthrough.
 - Hard mode settings -> Enable this to play on higher difficulty, this entails harder survival elements, more aggressive enemies, harder Dragons etc.
