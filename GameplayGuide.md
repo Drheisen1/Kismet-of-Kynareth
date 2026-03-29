@@ -61,7 +61,8 @@ All the customizations **MUST be made on a new save file**!
 
 **Difficulty**:
 - Easy mode Settings -> Enable this mod to enable [Requiem Lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), this is VERY recommended if this is your first requiem playthrough.
-- Hard mode settings -> Enable this to play on higher difficulty, this entails harder survival elements, more aggressive enemies, harder Dragons etc.
+- Hard mode settings -> Enable this to play on higher difficulty, It enables [Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description) as well as other ini and mcm changes.
+
 
 IMPORTANT: You will be notified in game to pick your difficulty as well, your choice in game HAS to match your choice in mod organizer.
 
