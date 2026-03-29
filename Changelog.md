@@ -1,4 +1,90 @@
+## Authoria - Requiem Reforged Version 1.1.0
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
+
+> Major Fixes.
+> Not savesafe.
+> Last major content addition before 2.0
+
+---
+
+# Added
+
+- Stuck Underwater Visuals and Sounds Fix SKSE
+- Simple Power Attack
+- Follower Dialogue Expansion - Marcurio (FDE)
+- GAB's Brynjolf Replacer
+- Bow Rapid Combo V3 - Archer Combat Overhaul
+- Bow Rapid Combo v3 - Complete Balance and Integration Patch
+- Hyper Realistic Sweetroll
+- Alternate game pause message
+- Requiem Magic Redone - Visual Tweaks
+- NPC Infinite Block Fix
+- NPC Infinite Block Fix - SkyPatched
+- Dual Wield Parrying - SKSE Menu Frameowrk Integration
+- SCAR Stamina Limitation Patch
+- Vanguard - Bash Behaviours Updated
+- Elden Parry
+- MCO-ADXP Rapier moveset
+- Gulan0-Walk-run-sprinting rework-CATA
+- Mace Animation MCO I SCAR
+- ADXP I MCO Nordic WarAxe Animation For Player
+- ADXP I MCO ER Spear Basic Animation (SCAR)
+- BFCO - MCO - ADXP - Elder Creed - Blade
+- Boiled Creme Treat 2K-8K by iimVampy
+- Dirt and Blood with Addons
+- OAR - Raysense
+- beam walking assist
+- RaySense - Cover Animation
+- RaySense - Edge Lookdown
+- RaySense - Jumping over obstacles
+- Player Equipment Manager on Wheels
+- Skyrim Outfit Equipment System NG
+- inn soaps and addons
+- Traveler's Armor Pack - Visually Upgradeable Outfit
+- Sweets and Such - Baking Expanded SE
+
+---
+
+# Removed
+
+- One Click Power Attack
+- Death Approaches - Quest Mod
+- BB's Brynjolf
+- Dynamic Sprint
+- One Quiver to Rule Them All
+- Bathing in Skyrim renewed
+
+---
+
+# Updated
+
+- Faster Decompression
+- Modex
+- SKSE Menu Framework
+- Ivy's Riverwood Overhaul
+- Shrubbery Symphony - Enhanced Greenery
+- Simple Power Attack SKSE
+- Requiem - Food and Beverage Redone
+
+---
+
+# Fixed
+
+- Half Khajiit sneak stats
+- Shor's stone Wall mesh bugged
+- SSSO3 not automaatically initiallizing
+- Farkas changing fit during companion quest
+
+---
+</details>
+
+
 ## Authoria - Requiem Reforged Version 1.0.4
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
 
 >Hotfixes and minor tweaks
 >Some fixes that were missed on initial Release.
