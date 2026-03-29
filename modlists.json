@@ -21,9 +21,9 @@
     "DisplayVersionOnlyInInstallerView": false,
     "force_down": false,
     "links": {
-      "image": "https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/wabbaimage.webp?raw=true",
+      "image": "https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Resources/wabbaimage.webp",
       "readme": "https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/README.md",
-      "download": "https://build.wabbajack.org/authored_files/download/Authoria%20-%20Requiem%20Reforged.wabbajack_847f9c37-0f34-4599-80fb-635a538aadc6",
+      "download": "https://authored-files.wabbajack.org/Authoria%20-%20Requiem%20Reforged.wabbajack_847f9c37-0f34-4599-80fb-635a538aadc6",
       "machineURL": "Drheisen1/Authoria-Requiem-Reforged",
       "discordURL": "https://discord.gg/themoddingbordello",
       "websiteURL": ""
