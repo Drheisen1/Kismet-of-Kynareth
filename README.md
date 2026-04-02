@@ -106,7 +106,7 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
 | **Storage**   | Internal SATA SSD                                       | NVMe M.2 SSD                                         |
 | **GPU**       | NVIDIA RTX 3000 series / AMD RX 6000 series             | NVIDIA RTX 4000 series / AMD RX 7000 XT              |
 | **VRAM**      | 16GB                                                    | 24GB                                                 |
-| **Disk Space**| ~247GB Download / ~450GB Installed / ~697GB Total       | ~247GB Download / ~450GB Installed / ~697GB Total    |
+| **Disk Space**| ~274GB Download / ~518GB Installed / ~792GB Total       | ~274GB Download / ~518GB Installed / ~792GB Total    |
 
 Before continuing, make sure these system components are installed — they are required for Wabbajack and Skyrim to function correctly:
 
