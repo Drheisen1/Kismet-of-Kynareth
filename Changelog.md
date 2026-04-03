@@ -1,8 +1,5 @@
 ## Authoria - Requiem Reforged Version 1.1.1.1
 
-<details>
-<summary><strong>Show / Hide full changelog</strong></summary>
-
 
 > Wabbajack Release
 ---
