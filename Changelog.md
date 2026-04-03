@@ -1,4 +1,97 @@
+## Authoria - Requiem Reforged Version 1.1.1.1
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
+
+
+> Wabbajack Release
+---
+
+# Added
+
+- Project Bro He's There - Fix followers not starting combat.
+- High Poly Head UV Stretch Fix (NECK SEAM FIXED)
+
+---
+
+# Removed
+
+---
+
+# Updated
+
+---
+
+# Fixed
+
+- reran all tools, fixed tundra grass distances and gaps
+
+---
+</details>
+
+
+## Authoria - Requiem Reforged Version 1.0.4
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
+
+>Hotfixes and minor tweaks
+>Some fixes that were missed on initial Release.
+
+
+---
+
+# Added
+
+- Valkyr HDT-SMP Hairstyles - For Khajiit
+- Modex Lite - SKSE Menu Framework Addon
+- Use Those Blankets Campfire Patch
+- Contundris - Weelbones' Ria Overhaul
+- Fast Travel Cost
+
+---
+
+# Removed
+
+- UAPNG Potion Safety
+- Smart NPC Potions
+- Ultimate NPC Dodging
+
+---
+
+# Updated
+
+- Faster Decompression
+- Simple Follower Framework
+
+---
+
+# Fixed
+
+- organized and fixed incorrect placement of racemenu presets
+- Laundry Clipping outside bannered mare
+- stb widget equipment name overlapping sun icon
+- No Dialogue option to clean up Riverwood Trader
+- Aela Naked Bug
+- static skill leveling Caps at low level
+- book retexture and highpoly head links messed up
+- some trees clipping in whiterun exterior
+- removed description from nevernude seperator to avoid confusion
+- added dummy plugins for controller mods
+- fear/stress causing sunhelm food menu to pop up
+- Snowy mountain pile near BFB base in summer
+- duplicate fortify barter potions in starting gear selection with different costs
+- clipping on ass of female underwear
+
+---
+</details>
+
+
 ## Authoria - Requiem Reforged Version 1.1.0
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
+
 
 > Major Fixes.
 > Not savesafe.
