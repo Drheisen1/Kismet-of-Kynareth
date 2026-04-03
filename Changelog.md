@@ -15,6 +15,7 @@
 ---
 
 # Removed
+- High Poly Head UV Stretch Fix
 
 ---
 
