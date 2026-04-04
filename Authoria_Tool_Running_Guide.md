@@ -1,342 +1,199 @@
 # Authoria - Requiem Reforged — Tool Running Guide
 
-This guide explains how to properly run all LOD-related tools for **Authoria - Requiem Reforged**.  
-You should follow this guide whenever you modify the modlist and need to regenerate LODs.
+This guide will walk you through how to run LOD tools for Authoria - Requiem Reforged, in case you modified the list and need to generate LODs again.
 
-The tools covered in this guide:
+The guide covers:
 - ParallaxGen
 - Grass Cache
 - xLODGen
 - TexGen
 - DynDOLOD
 
-Any tools not listed here are covered in separate, simpler guides.
+Any other tools not covered here will be handled in separate guides.
 
 ---
 
-## When Do You Need to Rerun These Tools?
-
-### 1. Mesh / Texture Changes
-If you add mods that replace **vanilla meshes or textures**:
-- You will most likely need to rerun **ParallaxGen**.
-
-To confirm:
-- Check conflicts of the mod you added.
-- If it is **losing conflicts to ParallaxGen output**, you must rerun ParallaxGen.
-
-**Important:**
-Rerunning ParallaxGen requires:
-- xLODGen → must be rerun
-- DynDOLOD → must be rerun
+## Index
+- [Preparation](#part-1-preperation)
+- [Running ParallaxGen](#part-2-running-parallaxgen)
+- [Running Grass Cache](#part-3---running-grass-cache)
+- [Running xLODGen](#part-4---running-xlodgen)
+- [TexGen and DynDOLOD](#part-5---running-texgen-and-dyndolod)
 
 ---
 
-### 2. Worldspace Edits (Tamriel)
-If you add mods that **edit the worldspace**:
-- Check changes in **xEdit**
-- You must rerun:
-  - ParallaxGen
-  - Grass Cache
-  - xLODGen
-  - DynDOLOD
+## When do I need to rerun these tools?
+
+- When adding mods that replace vanilla meshes and textures, ParallaxGen will most likely need to be rerun. To verify, check the mod for conflicts—if it is losing conflicts against the ParallaxGen output, then you must rerun ParallaxGen.
+
+**Note:** Rerunning ParallaxGen requires rerunning xLODGen and DynDOLOD as well.
+
+- When adding mods that edit the worldspace in Tamriel, you must check in xEdit. In this case, you will need to rerun ParallaxGen, Grass Cache, xLODGen, and DynDOLOD.
 
 ---
 
 ## Disclaimer
 
-Running tools for Authoria is **not a standard process** due to the inclusion of **Seasons of Skyrim**.
+Running tools for Authoria is very different from the usual process due to the inclusion of Seasons of Skyrim. Expect the full process to take at least two full days.
 
-- Expect the full process to take **at least two full days**
-- Outputs make up **30–40% of the modlist size**
-- Total output size: **~160 GB**
-
-Plan your storage accordingly.
+Approximately 30–40% of the modlist size comes from outputs, totaling around 160 GB, so plan your storage accordingly.
 
 ---
 
-## Index
+## Part 1 Preperation
 
-1. Preparation  
-2. ParallaxGen  
-3. Grass Cache  
-4. xLODGen  
-5. TexGen  
-6. DynDOLOD  
-
----
-
-# Part 1 — Preparation
-
-### Profile Setup
-- You should already have:
-  - A duplicated profile
-  - Empty output mods for each tool
-
-If you do not have enough space:
-- You can delete existing output contents and regenerate them
+- You should already have a duplicated profile created, with empty mods for the outputs corresponding to each tool. If you do not have enough space to support multiple outputs, you can delete the contents of the current outputs and replace them.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20005429.png)
 
----
-
-### Disable Flat Map Framework Separator
-- Expand the **Flat Map Framework Separator**
-- Disable everything inside it
+- Expand the Flat Map Framework Seperator and disable everything inside it.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20005437.png)
 
----
-
-### Verify Plugin Load Order
-- Open MO2 → Plugin Panel (right side)
-- Ensure the **last plugins** are:
-  - Synthesis Outputs
+- Double check the plugin panel on the right side of MO2. The last plugins in the load order should be the Synthesis Outputs.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20005810.png)
 
 ---
 
-# Part 2 — Running ParallaxGen  
-**Estimated Time: 10–15 minutes**
+## Part 2 Running ParallaxGen
 
-### Step 1 — Launch
-- In MO2 dropdown → select **ParallaxGen**
-- Click **Run**
+**Estimated time: 10–15 minutes**
+
+- From the dropdown menu on the right side of MO2, select ParallaxGen and press Run.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20010119.png)
 
----
-
-### Step 2 — Configure Settings
-- Ensure settings match the reference screenshot
-- **Instance Location**:
-  - Must match your Wabbajack installation directory
-- **Output Directory**:
-  - Select your empty ParallaxGen output mod
-
-Then click:
-- **Start Patching**
+- Ensure the settings match the screenshot:
+  - The Instance Location should match your Wabbajack installation directory.
+  - The Output directory should be the empty mod you created for ParallaxGen output.
+  - Then click "Start Patching".
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20010334.png)
 
----
-
-### Step 3 — Set Mods Prompt
-- When “Set Mods” popup appears:
-  - Do not change anything
-  - Click **OK**
+- When the "Set Mods" popup appears, do not change anything—just press OK.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20010820.png)
 
----
-
-### Step 4 — Completion
-- After generation finishes:
-  - Click **OK**
+- Once ParallaxGen completes, another window will appear—press OK.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20011136.png)
 
----
+- Enable your ParallaxGen output mod and refresh MO2. Two new plugins will appear:
+  - One at the top
+  - One at the bottom
 
-### Step 5 — Enable Output
-- Enable your **ParallaxGen Output Mod**
-- Refresh MO2
-
-You will see:
-- One plugin at the top
-- One plugin at the bottom
-
-Actions:
-- Enable both
-- Move both to the **bottom of the load order**
+Enable both and move them as low as possible in the load order.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20011441.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20011528.png)
 
 ---
 
-# Part 3 — Running Grass Cache  
-**Estimated Time: 9–15 hours**
+## Part 3 - Running Grass Cache
 
-### When to Rerun
+**Estimated time: 9–15 hours**
+
+- Grass cache should rarely be rerun unless you change or add a major location overhaul or landscape-altering mod.
 
 From the author of No Grass in Objects:
 
-> If you change grass mods or settings (excluding distance/fade/DynDOLOD mode), you must regenerate the cache.  
-> If you add/remove landscape or location mods, regenerate either affected cells or the full worldspace.
+"When do I need to regenerate a cache?
 
----
+If you change grass mods or grass settings (excluding grass distance, fade range, DynDOLOD mode, or extended grass distance), you must regenerate the cache.
 
-### Key Notes
-- Must be run **5 times (one per season)**
+If you add or remove mods that alter locations or landscapes, regenerate either the affected cells or the entire worldspace depending on what is easier."
 
----
+- Grass cache must be generated 5 times, once for each season.
 
-### External Setup Guide
-Follow:
+- To begin, follow this guide from 4:33 to 9:50:
 https://www.youtube.com/watch?v=jH7co25_JIo  
-(Start at 4:33 → 9:50)
+In Authoria, "Grass Bounds.esp" is named "Deez Nuts.esp".
 
-Note:
-- "Grass Bounds.esp" = **"Deez Nuts.esp"** in Authoria
+- Do not modify GrassControl INI settings except for only-pregenerate-world-spaces if you do not understand them.
 
----
-
-### GrassControl.ini Rules
-- Do NOT change settings unless you understand them
-- Only allowed change:
-  - `only-pregenerate-world-spaces`
-
----
-
-### Required Mod Setup
-
-Disable:
-- Grass Cache Helper NG  
-
-Enable:
-- No Grass In Objects  
+- Once GrassControl.ini is configured:
+  - Disable "Grass Cache Helper NG"
+  - Enable "No Grass In Objects"
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20013250.png)
 
----
-
-### Disable Mods to Prevent Crashes
-
-Disable:
-- Auto Parallax
-- Discord Rich Presence
-- TrueHUD (plugin only)
-- Skyrim Souls (note load order)
+- Disable the following mods to prevent crashes:
+  - Auto Parallax
+  - Discord Rich Presence
+  - TrueHUD (plugin only)
+  - Skyrim Souls (note load order)
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20013539.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20013609.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20013641.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20014008.png)
 
----
+- Navigate to MO2 Data tab and locate po3_seasonsofskyrim.ini, then reveal it in explorer.
 
-### Seasons Setup
-
-Locate:
-- `po3_seasonsofskyrim.ini`
+IMPORTANT: If you added a new worldspace with Seasons support, delete this file and launch the game to regenerate it.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20014207.png)
 
-If adding new worldspace:
-- Delete the file
-- Launch game → reach main menu → regenerate
-
----
-
-Set initial season:
-- `Season Type = 0`
+- Open the INI file, set Season Type to 0 (disabled), then save and close.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20014319.png)
 
----
-
-### Generate Grass Cache
-
-- MO2 → jigsaw icon → **Precache Grass**
-- Confirm prompt
+- Back in MO2, click the jigsaw icon and run "Precache Grass", then confirm.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20014715.png)
 
-- Wait 2–3 hours
-- Move `/overwrite/grass` →  
-  `Authoria - Grass Cache - Default`
+- After completion (2–3 hours), move the "grass" folder from overwrite to "Authoria - Grass Cache - Default".
 
----
+- Repeat the process for Winter (1), then Summer, Spring, and Autumn.
 
-### Seasonal Generation
-
-Repeat for:
-- Winter (1)
-- Summer
-- Spring
-- Autumn
-
----
-
-### Rename Seasonal Cache
-
-Download:
-https://www.nexusmods.com/skyrimspecialedition/mods/142343?tab=files  
+- Download and use the renamer:
+https://www.nexusmods.com/skyrimspecialedition/mods/142343?tab=files
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20015518.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20015715.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20015937.png)
 
----
-
-### Final Step
-- Re-enable all disabled mods
-- Disable No Grass In Objects
-- Enable Grass Cache Helper NG
+- Re-enable all mods and restore original configuration.
 
 ---
 
-# Part 4 — Running xLODGen  
-**Estimated Time: 4 hours**
+## Part 4 - Running xLODGen
 
-### Overview
-Run twice:
-1. Non-seasonal
-2. Seasonal
+**Estimated time: 4 hours**
 
----
+- xLODGen must be run twice:
+  - Default worldspaces
+  - Seasonal worldspaces
 
-### Setup
-
-Enable:
-- xLODGen Resource - SSE Terrain Tamriel
+- Enable "xLODGen Resource - SSE Terrain Tamriel"
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20020450.png)
 
----
-
-Configure output path:
+- Configure output directory in MO2 settings.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20020646.png)
 
----
-
-### First Run — Default Only
-
-- Select Terrain LOD
-- Select All worldspaces
-- Seasons → Default
+- First run:
+  - Select Terrain LOD
+  - Select all worldspaces
+  - Seasons = Default
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20021516.png)
 
-- Click Generate
-
----
-
-### Seasonal Worldspaces
-
-Check:
-- `po3_seasonsofskyrim.ini`
+- For seasonal:
+  - Use po3_seasonsofskyrim.ini → Valid Worldspaces
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20021844.png)
 
-Use listed worldspaces:
-(Tamriel, MarkarthWorld, etc.)
-
----
-
-### Second Run — Seasonal
-
-- Select only seasonal worldspaces
-- Seasons → everything except Default
+- Second run:
+  - Select seasonal worldspaces
+  - Seasons = everything except Default
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20022406.png)
 
-- Generate
-
 ---
 
-# Part 5 — Running TexGen and DynDOLOD
+## Part 5 - Running TexGen and DynDOLOD
 
-Continue with the same workflow pattern.
+Continue following the same structured workflow.
