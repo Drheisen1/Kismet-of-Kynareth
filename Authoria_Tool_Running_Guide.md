@@ -145,10 +145,7 @@ IMPORTANT: If you added a new worldspace with Seasons support, delete this file 
 
 - After completion (2–3 hours), move the "grass" folder from overwrite to "Authoria - Grass Cache - Default".
 
-- Repeat the process for Winter (1), then Summer, Spring, and Autumn.
-
-- Download and use the renamer:
-https://www.nexusmods.com/skyrimspecialedition/mods/142343?tab=files
+- To generate Seasonal Grass Cache, Repeate the same Process above, but change the Season type to the seasons you want to generate in the po3_seasonsofskyrim.ini beforehand, you will also need the [Grass cache renamer](https://www.nexusmods.com/skyrimspecialedition/mods/142343?tab=files) , the process is explained in the images below.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20015518.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20015715.png)
