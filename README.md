@@ -1,7 +1,7 @@
 # Authoria - Requiem Reforged
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4e18200c-f59a-4a66-afe0-c39933bac819"     
+  <img src="https://github.com/user-attachments/assets/4e18200c-f59a-4a66-afe0-c39933bac819">     
 
 ---
 
