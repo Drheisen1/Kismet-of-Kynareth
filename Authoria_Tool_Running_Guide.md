@@ -205,6 +205,6 @@ AXOffshoreIslandWorld|
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20022406.png)
 
-- Once it is done, it will say **"Lod Generation Done."** Close out of xLODGen.
+- Once it is done, it will say **"Lod Generation Done."** Close out of xLODGen, Don't forget to Disable **"xLODGen Resource - SSE Terrain Tamriel"** , and enable your Output.
 
 ## Part 5 - Running TexGen and DynDOLOD
